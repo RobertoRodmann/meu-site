@@ -1,9 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-.home{
+
+.home {
+    background-color: rgb(36, 36, 240);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(20, 8, 90);
+    text-align: center;
+    display: flex;  
+    justify-content:space-between;
+    
+  
+
+}
+
+.logo {
+    height: 80px;   
+    background-color: crimson;
+    width: 50px;
+    padding: 10px;
+}
+
+.menu {
+    height: 80px;
     background-color: blue;
-    width: 100%;
-}   
+    width: 50px;
+    padding: 10px;
+
+}

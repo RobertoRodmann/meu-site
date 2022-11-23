@@ -5,19 +5,27 @@
 }
 
 .home {
-    background-color: rgb(36, 36, 240);
+    background-color: rgb(25, 25, 182);
     width: 100vw;
     height: 100vh;
+    background-image: url("img/ponte-guaiba-porto-alegre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken, luminosity;
 
 }
 
 .header {
     width: 100vw;
     height: 80px;
-    background-color: rgb(20, 8, 90);
+    background-color: rgb(169, 186, 245);
     text-align: center;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 15px rgba(22, 22, 31,0.4);
+    background-repeat: repeat-x;
+    background-position: 5px;
 
 
 
@@ -25,19 +33,24 @@
 
 .logo {
     margin-left: 90px;
+}
+
+.logo img {
     height: 80px;
-    background-color: crimson;
-    width: 50px;
 }
 
 .menu {
     margin-right: 90px;
     height: 80px;
 
-
-
-
 }
+
+.main-content {
+    font-size: 150px;
+    font-family: 50px;
+    color:rgb(255, 255, 255);
+    font-family: 'Rubik Microbe', cursive;
+}   
 
 ul {
     display: flex;
@@ -67,5 +80,9 @@ a:link {
 }
 
 li:hover {
-    background-color: rgb(0, 0, 0);
+    background-color:#687BF7;
+}
+.empresa{
+   
+    height: 500px;
 }
